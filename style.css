@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+/* Top Menu */
+section.top-header {
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.left,.right {
+    padding: 0 48px;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.day-time {
+    margin-left: 20px;
+}
+
+.social-icons {
+    margin-left: 20px;
+}
+
+body {
+    color: #555555;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.day-time span, .contact span, .address span {
+    font-size: 14px;
+}
+
+
+i.fa-brands {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* Navigation Menu */
+
+section.navigation-menu {
+    display: flex;
+    padding-left: 39px;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+}
+
+.nav-left h2 {
+    color: #ab7442;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+.quote-btn {
+    width: 220px;
+    text-align: center;
+    background: #ab7442;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+i.fa-solid.fa-arrow-right {
+    margin-left: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    padding: 0 35px;
+}
+
+/* Hero section */
+
+section.hero {
+    height: 100vh;
+    background:linear-gradient(0deg, rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(/img/carousel-1.jpg);
+}
+section.hero {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    text-align: center;
+}
+
+.hero h5, .hero p {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+}
+
+.hero h1 {
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+
+
+
+.hero p {
+    padding: 0px 450px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+
+.redmore-btn {
+    background: #ab7422;
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero-btn {
+    display: flex;
+}
+
+.free-quote-btn {
+    padding: 16px 48px;
+    background: #f5f5f5;
+    margin-left: 25px;
+    color: black;
+}
